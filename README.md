@@ -1,4 +1,4 @@
-# 📊 Análise dos acidentes em vias brasileiras em 2025
+# Análise dos acidentes em vias brasileiras em 2025
 
 Este repositório contém uma análise estatística e visual dos dados de acidentes de trânsito registrados pela Polícia Rodoviária Federal (PRF) durante o ano de 2025. O objetivo do projeto é identificar padrões, causas principais e as regiões mais afetadas por fatalidades nas rodovias do país.
 
@@ -6,7 +6,7 @@ O projeto foi desenvolvido em Python utilizando a biblioteca **Pandas** para man
 
 ---
 
-## 📌 Perguntas Respondidas
+## Perguntas Respondidas
 
 O script analisa a base de dados para responder a 6 perguntas estratégicas:
 1. **Visão Geral:** Quais as UFs onde mais ocorrem acidentes fatais?
@@ -18,7 +18,7 @@ O script analisa a base de dados para responder a 6 perguntas estratégicas:
 
 ---
 
-## 📈 Principais Conclusões
+## Principais Conclusões
 
 1. **O fator humano supera as condições climáticas:** A esmagadora maioria dos acidentes acontece com o tempo em condições ideais (**Céu Claro**). Alinhado ao fato de que as principais causas são a **Ausência ou Reação Tardia do Condutor** (distração por celular, cansaço), fica claro que a imprudência e a falsa sensação de segurança do tempo bom são os maiores perigos.
 2. **Distância de Segurança Negligenciada:** O tipo de acidente disparado mais comum é a **Colisão Traseira**, reflexo direto de motoristas trafegando muito próximos uns dos outros em velocidades que inviabilizam frenagens de emergência.
@@ -26,7 +26,7 @@ O script analisa a base de dados para responder a 6 perguntas estratégicas:
 
 ---
 
-## 🛠️ Qualidade, Limpeza e Tratamento dos Dados
+## Qualidade, Limpeza e Tratamento dos Dados
 
 Para garantir a precisão dos gráficos, o arquivo bruto `datatran2025.csv` passou pelas seguintes etapas de engenharia de dados:
 
@@ -37,7 +37,7 @@ Para garantir a precisão dos gráficos, o arquivo bruto `datatran2025.csv` pass
 
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 ### Pré-requisitos
 Certifique-se de ter o Python instalado junto com as seguintes dependências:
