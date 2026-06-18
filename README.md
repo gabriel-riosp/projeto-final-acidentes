@@ -34,12 +34,3 @@ Para garantir a precisão dos gráficos, o arquivo bruto `datatran2025.csv` pass
 * **Correção de Encoding:** Ajustado para `latin-1` para evitar quebra de caracteres e erros de acentuação do padrão brasileiro.
 * **Correção de Tipagem (Dados Numéricos):** Colunas como `km`, `latitude` e `longitude` vieram originalmente como texto devido ao uso da vírgula decimal brasileira ( ex: `546,2`). O script substitui a vírgula por ponto e força a conversão para `float64`.
 * **Correção de Tipagem (Tempo):** As colunas `data_inversa` e `horario` foram convertidas para o formato nativo `datetime` do Pandas.
-
----
-
-## Como Executar o Projeto
-
-### Pré-requisitos
-Certifique-se de ter o Python instalado junto com as seguintes dependências:
-```bash
-pip install pandas matplotlib seaborn
